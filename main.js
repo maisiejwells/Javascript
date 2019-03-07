@@ -1,5 +1,6 @@
 import { films } from './starwars/films.js'
 
+
 const intro = document.querySelector('.starwars')
 
 films.sort((a,b) => (a.episode_id > b.episode_id) ? 1 : -1 )
@@ -21,4 +22,3 @@ tile.className = "tile"
 })
 
 
-console.log(films)
