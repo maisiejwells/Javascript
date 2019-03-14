@@ -20,7 +20,8 @@ const allHomeWorlds = people.map(person => {
         name: person.name,
         home: foundWorld.name,
         birth_year: person.birth_year,
-       imagePath:`https://starwars-visualguide.com/assets/img/characters/${imageURL}.jpg`
+        imagePath:`https://starwars-visualguide.com/assets/img/characters/${imageURL}.jpg`,
+        imagePlanets:`https://starwars-visualguide.com/#/planets/${imageURL}`
     }
 })
 
@@ -31,21 +32,31 @@ mainContainer.className = 'container'
 
 allHomeWorlds.forEach((person) => {
 
-let personElement = document.createElement('div')
-let planetElement = document.createElement('p')
-let birthYear = document.createElement('p')
-let imageElement = document.createElement('img')
+    let personElement = document.createElement('div')
+    let planetElement = document.createElement('p')
+planetElement.className = "planetName"
+    let birthYear = document.createElement('p')
+    let imageElement = document.createElement('img')
 
-personElement.className = 'box'
-personElement.textContent = person.name
-planetElement.textContent = person.home
-birthYear.textContent = person.birth_year
-imageElement.src = person.imagePath
+    let imagePlanet = document.createElement('img')
 
-personElement.appendChild(planetElement)
-personElement.appendChild(birthYear)
-personElement.appendChild(imageElement)
-mainContainer.appendChild(personElement)
+    personElement.className = 'box'
+    personElement.textContent = person.name
+    planetElement.textContent = person.home
+    birthYear.textContent = person.birth_year
+    imageElement.src = person.imagePath
 
-document.body.appendChild(mainContainer)
+    imagePlanet.src = person.imagePlanet
+
+    personElement.appendChild(planetElement)
+    personElement.appendChild(birthYear)
+    personElement.appendChild(imageElement)
+    mainContainer.appendChild(personElement)
+
+    personElement.appendChild(planetElement)
+    // personElement.appendChild(imagePlanet)
+
+
+    document.body.appendChild(mainContainer)
 })
+

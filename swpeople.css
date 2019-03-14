@@ -8,4 +8,9 @@ flex-wrap:wrap;
     width: 200px;
     margin: 10px;
     text-align: center;
+    border: solid 2px darkgray;
+}
+.planetName {
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 10px 25px 10px 25px;
 }

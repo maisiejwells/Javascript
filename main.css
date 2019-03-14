@@ -15,11 +15,12 @@ body {
 
 .intro {
 
-  top: 0;
+  /* top: 0; */
   background: #B3B7FF;
-  min-height: 55vh;
-  padding-top: 45vh;
-
+ min-height: 55vh;
+ padding-top: 45vh;
+  margin-top: -00px;
+padding-top: -200px;
 }
 .starwars {
 display: flex;
@@ -217,3 +218,4 @@ footer a {
     line-height: normal;
   }
 }
+
