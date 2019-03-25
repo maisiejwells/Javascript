@@ -2,6 +2,7 @@
 display: flex;
 justify-content: space-around;
 flex-wrap:wrap;
+
 }
 
 .container div{
@@ -16,3 +17,6 @@ flex-wrap:wrap;
     font-weight: 600;
 }
 
+person.name {
+    font-size: 1px;
+}
