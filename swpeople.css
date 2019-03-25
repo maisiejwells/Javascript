@@ -15,8 +15,9 @@ flex-wrap:wrap;
 .planetName {
     background: rgba(255, 0, 0, 0.3);
     border-radius: 10px 25px 10px 25px;
-    font-weight: 500;
-
+    font-weight: 450;
+    font-style: italic;
+    color: black;
 }
 
 .box {
