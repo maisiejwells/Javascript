@@ -3,20 +3,22 @@ display: flex;
 justify-content: space-around;
 flex-wrap:wrap;
 
+
 }
 
 .container div{
     width: 200px;
     margin: 10px;
     text-align: center;
-    border: solid 2px darkgray;
+    border: solid 2px darkgrey;
 }
 .planetName {
     background: rgba(255, 0, 0, 0.3);
     border-radius: 10px 25px 10px 25px;
-    font-weight: 600;
+    font-weight: 500;
+
 }
 
-person.name {
-    font-size: 1px;
+.box {
+color: black;
 }
