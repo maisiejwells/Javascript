@@ -11,6 +11,7 @@ body {
   padding: 0;
   /* display: flex; */
   border: 0px;
+
 }
 
 .intro {
@@ -31,12 +32,17 @@ min-height: 55vh;
 padding-top: 45vh;
 background-color: #B3B7FF;
 color: #ededed;
+
 }
 .tile {
 width: 400px;
 height: 340px;
 /* border: 2px solid yellow */
 text-align: center;
+border: solid 1px black;
+margin-bottom: 30px;
+
+
 /* color:red;
     background:#f0f0f0;
     width:100%;
