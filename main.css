@@ -36,11 +36,11 @@ color: #ededed;
 }
 .tile {
 width: 400px;
-height: 340px;
+height: 250px;
 /* border: 2px solid yellow */
 text-align: center;
 border: solid 1px black;
-margin-bottom: 30px;
+margin:20px;
 
 
 /* color:red;
